@@ -1,3 +1,6 @@
+import * as dotenv from "dotenv";
+dotenv.config();
+
 import { Client, create } from "@open-wa/wa-automate";
 
 import handleEvents from "./app";
